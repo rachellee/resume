@@ -1,0 +1,145 @@
+/*
+ Width: 1000px
+ # Columns : 
+ Column width: 65px
+ Gutter : 20px
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Linden+Hill);
+
+
+body {
+	font-family: Garamond;
+	font-size: 1rem;
+	padding: 40px;
+	line-height: 1.5rem
+}
+
+h1 {
+	font-family: 'Linden Hill', serif;
+	font-size: 24px;
+	text-decoration: underline;
+	padding-bottom: 0px;
+}
+
+h2 {
+	font-family: Garamond;
+	font-size: 18px;
+	margin-top: -10px;
+	margin-bottom: 0px;
+}
+
+ul {
+	margin-top: -5px;
+}
+
+.main_header {
+	height: 300px;
+	font-family: 'Linden Hill', serif;
+	text-align: center;
+	background-color: #D6D6EA;
+	padding-top: 50px;
+}
+
+.main_header a {
+	font-family: Garamond;
+	font-size: 16px;
+	padding-top: 0px;
+}
+
+.pic {
+	padding-top: 15px;
+	padding-right: 15px;
+	margin-left: -65px;
+}
+
+#container {
+	width: 70%;
+	margin: 0px auto;
+}
+
+#container p { /*you can select a specific component within an id/class */
+	padding: 0;
+	margin: 10px;
+}
+
+.Education, /* result of DRY - don't repeat yourself */
+.Technical_Profile,
+.Hobbies {
+	padding: 20px;
+	background-color: #FFFFFF;
+	overflow: scroll;
+	
+	
+}
+
+.Experience,
+.International_Travel,
+.Skills {
+	padding: 20px;
+	background-color: #FFE9F4;
+	overflow: scroll;
+	
+}
+
+.main_footer {
+	height: 50px;
+	color: black;
+	background-color: #D6D6EA;
+	padding-top: 20px;
+}
+
+.base {
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+}
+
+/* Attribute Selectors */
+input [type="email"] {
+	width: 200px;
+}
+
+input [type="submit"] {
+	
+}
+
+/* link selectors and user action pseudo classes */
+a:link {
+	color: dark blue;
+}
+
+a:visited {
+	color: dark blue;
+}
+
+a:hover {
+	color: white;
+	background-color: #7FFFD4;
+	text-decoration: bold;
+}
+
+/* Pseudo-Classes */
+:root {
+	background-color: #EBEBEB;
+}
+
+:target {
+	background-color: #66FFFF;
+}
+
+/* Pseudo-Elements */
+.intro::first-line {
+	color: blue;
+	font-weight: bold;
+}
+
+.intro::first-letter {
+	float: left;
+	margin: 10px 10px;
+	padding: 5px 10px;
+	background: #e0e0e0;
+	font-size: 50px;
+	line-height: 1;
+}
