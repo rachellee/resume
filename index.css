@@ -27,6 +27,14 @@ body {
 	padding-left: 1rem;
 }
 
+header a {
+	color: #C8E8E5;
+}
+
+header a:hover {
+	color: #D7F4F0;
+}
+
 nav {
 	font-family: Arial, sans-serif;
 	font-size: 0.75rem;
@@ -41,12 +49,8 @@ a {
 	color: #717171;
 }
 
-a:visited {
-	color: #9E9E9E;
-}
-
 a:hover {
-	color: #9E9E9E;
+	color: #D1D1D1;
 }
 
 .nav-link {
@@ -76,7 +80,7 @@ a:hover {
 }
 
 .sections {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 	margin: 6rem auto;
 	max-width: 600px;
 	width: 100%;
@@ -84,11 +88,13 @@ a:hover {
 }
 
 h1 {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.5rem;
-	font-weight: 600;
+	font-weight: 400;
+	color: #9AD8D0;
 	text-style: none;
 	text-decoration: none;
+	letter-spacing: 0.2rem;
 	text-align: left;
 	padding-bottom: 0rem;
 }
@@ -96,7 +102,8 @@ h1 {
 h2 {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.125rem;
-	font-weight: 400;
+	font-weight: 100;
+	color: #343434;
 	text-align: left;
 	margin-top: -0.625rem;
 	margin-bottom: 0rem;
@@ -107,6 +114,11 @@ p {
 	font-size: .95rem;
 	font-weight: 300;
 	line-height: 1.5rem;
+	color: #757575;
+}
+
+p a {
+	text-decoration: underline;
 }
 
 ul {
@@ -114,6 +126,7 @@ ul {
 	font-size: 0.95rem;
 	font-style: none;
 	font-weight: 300;
+	color: #757575;
 	line-height: 1.5rem;
 	margin-top: -.7rem;
 	padding-right: 3rem;
