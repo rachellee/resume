@@ -17,7 +17,7 @@ body {
 .main-header {
 	height: 12.5rem;
 	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
-	color: #C8E8E5;
+	color: #9AD8D0;
 	font-size: 4.5rem;
 	font-weight: 900;
 	text-transform: uppercase;
@@ -28,7 +28,7 @@ body {
 }
 
 header a {
-	color: #C8E8E5;
+	color: #9AD8D0;
 }
 
 header a:hover {
