@@ -192,3 +192,45 @@ ul {
 	font-weight: 100;
 	font-size: 24px;
 }
+
+
+/* ===========================================================================================
+	Portfolio page styling
+   =========================================================================================== */
+
+.portfolio_container {
+	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 2rem;
+	margin: 6rem auto;
+	max-width: 600px;
+	width: 100%;
+}
+
+/* ===========================================================================================
+	Contact page styling
+   =========================================================================================== */
+
+.contact_container {
+	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 2rem;
+	margin: 6rem auto;
+	max-width: 500px;
+	width: 100%;
+	overflow: hidden;	
+}
+
+.contact {
+	width: 50%;
+	float: left;
+}
+
+.social {
+	float: right;
+}
+
+
+
+
+
