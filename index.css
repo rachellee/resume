@@ -134,20 +134,19 @@ ul {
 
 .main_footer base {
 	font-family: 'Verdana', Helvetica, Arial, sans-serif;
-	text-align: center;
-}
-
-.main_footer {
+	text-align: left;
 	font-family: 'Verdana', Helvetica, Arial, sans-serif;
 	height: 3.13rem;
-	color: black;
+	color: #9AD8D0;
 	padding-top: 20px;
+	text-align: left;
 }
 
 .base {
-	font-family: 'Cabin', Verdana, Helvetica, Arial, sans-serif;
+	font-family: 'Lato', Verdana, Helvetica, Arial, sans-serif;
 	padding-top: 50px;
-	color: black;
+	padding-bottom: 50px;
+	color: #9AD8D0;
 	text-align: center;
 	font-size: 16px;
 }
@@ -208,12 +207,14 @@ ul {
 }
 
 /* ===========================================================================================
-	Contact page styling
+	Contact footer styling
    =========================================================================================== */
 
 .contact_container {
 	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 300;
+	color: #343434;
+	text-align: left;
 	line-height: 2rem;
 	margin: 6rem auto;
 	max-width: 500px;
