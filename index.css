@@ -82,7 +82,7 @@ a:hover {
 .sections {
 	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 	margin: 6rem auto;
-	max-width: 600px;
+	max-width: 570px;
 	width: 100%;
 	text-align: justify;
 }
@@ -130,25 +130,6 @@ ul {
 	line-height: 1.5rem;
 	margin-top: -.7rem;
 	padding-right: 3rem;
-}
-
-.main_footer base {
-	font-family: 'Verdana', Helvetica, Arial, sans-serif;
-	text-align: left;
-	height: 3.13rem;
-	color: #9AD8D0;
-	padding-top: 20px;
-	text-align: left;
-}
-
-.base {
-	font-family: 'Lato', Verdana, Helvetica, Arial, sans-serif;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	color: #9AD8D0;
-	background-color: #F2F2F2;
-	text-align: center;
-	font-size: 16px;
 }
 
 
@@ -210,13 +191,33 @@ ul {
 	Contact footer styling
    =========================================================================================== */
 
+
+.main_footer base {
+	font-family: 'Verdana', Helvetica, Arial, sans-serif;
+	text-align: left;
+	height: 3.13rem;
+	color: #9AD8D0;
+	padding-top: 20px;
+	text-align: left;
+}
+
+.base {
+	font-family: 'Lato', Verdana, Helvetica, Arial, sans-serif;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: #9AD8D0;
+	background-color: #F2F2F2;
+	text-align: center;
+	font-size: 16px;
+}
+
 .contact_container {
 	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	color: #343434;
 	text-align: left;
 	line-height: 2rem;
-	margin: 2rem auto;
+	margin: 2rem auto 3rem auto;
 	max-width: 500px;
 	width: 100%;
 	overflow: hidden;	
