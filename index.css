@@ -14,7 +14,7 @@ body {
 	padding: 0rem;
 }
 
-.main-header {
+#main-header {
 	height: 12.5rem;
 	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #9AD8D0;
@@ -53,11 +53,11 @@ a:hover {
 	color: #D1D1D1;
 }
 
-.nav-link {
+#nav-link {
 	margin: 0rem .7rem;
 }
 
-#main-container {
+.main-container {
 	width: 100%;
 	margin: 0rem auto;
 	background-color: #FFFFFF;
@@ -192,7 +192,7 @@ ul {
    =========================================================================================== */
 
 
-.main_footer base {
+#main_footer base {
 	font-family: 'Verdana', Helvetica, Arial, sans-serif;
 	text-align: left;
 	height: 2rem;
@@ -211,14 +211,14 @@ ul {
 	font-size: 16px;
 }
 
-.footer_container {
+#footer_container {
 	width: 1000px;
 	background-color: #F2F2F2;
 	margin: auto;
 	width: 100%;
 	height: 300px;
 }
-.contact_container {
+#contact_container {
 	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	color: #343434;
@@ -232,12 +232,12 @@ ul {
 	height: 250px;
 }
 
-.contact {
+#contact {
 	width: 50%;
 	float: left;
 }
 
-.social {
+#social {
 	width: 50%;
 	float: right;
 }
