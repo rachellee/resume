@@ -7,6 +7,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Quicksand|Josefin+Sans|Julius+Sans+One);
 
 body {
 	background-color: #FFFFFF;
@@ -16,10 +17,10 @@ body {
 
 #main-header {
 	height: 12.5rem;
-	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Julius Sans One', 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #9AD8D0;
-	font-size: 4.5rem;
-	font-weight: 900;
+	font-size: 6rem;
+	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.8rem;
 	text-align: center;
@@ -39,7 +40,7 @@ nav {
 	font-family: Arial, sans-serif;
 	font-size: 0.75rem;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	letter-spacing: .2rem;
 }
 
@@ -54,7 +55,7 @@ a:hover {
 }
 
 #nav-link {
-	margin: 0rem .7rem;
+	margin: 0rem .9rem;
 }
 
 .main-container {
@@ -88,7 +89,7 @@ a:hover {
 }
 
 h1 {
-	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Julius Sans One', 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 1.5rem;
 	font-weight: 400;
 	color: #9AD8D0;
