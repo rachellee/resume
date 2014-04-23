@@ -135,110 +135,6 @@ ul {
 
 
 /* ===========================================================================================
-	Media Queries
-   =========================================================================================== */
-
-/* Smartphones (portrait and landscape) ----------- */
-@media screen and (min-width: 300px) and (max-width: 360px) {
-	#main-header {
-		font-size: 2.9rem;
-		padding-top: 6rem;
-		height: 10rem;
-	}
-
-	.sections {
-		width: 80%;
-		text-align: left;
-	}
-}
-
-/* custom ----------- */
-@media screen and (min-width: 360px) and (max-width: 479px) {
-	#main-header {
-		font-size: 3.6rem; 
-	}
-}
-
-/* custom ----------- */
-@media screen and (min-width: 404px) and (max-width: 414px) {
-	#main-header {
-		font-size: 4rem; 
-	}
-}
-
-/* custom ----------- */
-@media screen and (min-width: 414px) and (max-width: 451px) {
-	#main-header {
-		font-size: 4.4rem; 
-	}
-}
-
-/* custom ----------- */
-@media screen and (min-width: 451px) and (max-width: 480px) {
-	#main-header {
-		font-size: 4.8rem; 
-	}
-}
-
-/* custom ----------- */
-@media screen and (min-width: 480px) and (max-width: 509px) {
-	#main-header {
-		font-size: 5.5rem; 
-	}
-}
-
-/* custom ----------- */
-@media screen and (min-width: 509px) and (max-width: 577px) {
-	#main-header {
-		font-size: 5.8rem; 
-	}
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media screen and (min-width: 578px) and (max-width: 1024px) {
-	#main-header {
-		font-size: 6rem; 
-	}
-}
-
-/* Desktops and laptops ----------- */
-@media screen and (min-width: 1224px) {
-	#main-header {
-		font-size: 6rem; 
-	}
-}
-
-/* Large screens ----------- */
-@media screen and (min-width: 1824px){
-	#main-header {
-		font-size: 6rem; 
-	}
-}
-
-/* iPhone 4 ----------- */
-@media screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-	#main-header {
-		font-size: 2.9rem;
-		padding-top: 6rem;
-		height: 10rem;
-	}
-
-	.sections {
-		width: 80%;
-		text-align: left;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-/* ===========================================================================================
 	Blog index styling
    =========================================================================================== */
 
@@ -319,11 +215,138 @@ footer {
 }
 
 #social {
-	width: 50%;
+	width: 36%;
+	margin: 0 auto;
 	float: right;
 }
 
 
+
+
+
+/* ===========================================================================================
+	Media Queries
+   =========================================================================================== */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width: 300px) and (max-width: 360px) {
+	#main-header {
+		font-size: 2.9rem;
+		padding-top: 6rem;
+		height: 10rem;
+	}
+
+	.sections {
+		width: 80%;
+		text-align: left;
+	}
+
+	#contact {
+		width: 40%;
+		padding-left: 5px;
+		float: left;
+	}
+
+	#social {
+		width: 50%;
+		margin: 0px auto;
+		padding-right: 6px;
+	}
+}
+
+/* custom ----------- */
+@media screen and (min-width: 360px) and (max-width: 479px) {
+	#main-header {
+		font-size: 3.6rem; 
+	}
+
+	.sections {
+		width: 80%;
+		text-align: left;
+	}
+
+	#contact {
+		width: 40%;
+		padding-left: 22px;
+		float: left;
+	}
+
+	#social {
+		width: 47%;
+		margin: 0px auto;
+		padding-right: 11px;
+	}
+}
+
+/* custom ----------- */
+@media screen and (min-width: 404px) and (max-width: 414px) {
+	#main-header {
+		font-size: 4rem; 
+	}
+}
+
+/* custom ----------- */
+@media screen and (min-width: 414px) and (max-width: 451px) {
+	#main-header {
+		font-size: 4.4rem; 
+	}
+}
+
+/* custom ----------- */
+@media screen and (min-width: 451px) and (max-width: 480px) {
+	#main-header {
+		font-size: 4.8rem; 
+	}
+}
+
+/* custom ----------- */
+@media screen and (min-width: 480px) and (max-width: 509px) {
+	#main-header {
+		font-size: 5.5rem; 
+	}
+}
+
+/* custom ----------- */
+@media screen and (min-width: 509px) and (max-width: 577px) {
+	#main-header {
+		font-size: 5.8rem; 
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width: 578px) and (max-width: 1024px) {
+	#main-header {
+		font-size: 6rem; 
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media screen and (min-width: 1224px) {
+	#main-header {
+		font-size: 6rem; 
+	}
+}
+
+/* Large screens ----------- */
+@media screen and (min-width: 1824px){
+	#main-header {
+		font-size: 6rem; 
+	}
+}
+
+/* iPhone 4 ----------- */
+@media screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+	#main-header {
+		font-size: 2.9rem;
+		padding-top: 6rem;
+		height: 10rem;
+	}
+
+	.sections {
+		width: 80%;
+		text-align: left;
+	}
+}
 
 
 
