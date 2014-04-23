@@ -137,7 +137,7 @@ ul {
 /* ===========================================================================================
 	Media Queries
    =========================================================================================== */
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
 	#main-header {
 		font-size: 4rem; 
 	}
@@ -147,7 +147,7 @@ ul {
 	}
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 1000px) {
 	.sections {
 		width: 90%;
 	}
