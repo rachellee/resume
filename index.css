@@ -201,7 +201,6 @@ footer {
 	color: #343434;
 	background-color: #F2F2F2;
 	text-align: left;
-	line-height: 2rem;
 	margin: 0px auto;
 	padding-top: 40px;
 	max-width: 550px;
@@ -210,11 +209,13 @@ footer {
 }
 
 #contact {
+	line-height: 2rem;
 	width: 50%;
 	float: left;
 }
 
 #social {
+	line-height: 2rem;
 	width: 36%;
 	margin: 0 auto;
 	float: right;
@@ -242,6 +243,7 @@ footer {
 	}
 
 	#contact {
+		line-height: 1.3rem;
 		width: 40%;
 		padding-left: 5px;
 		float: left;
@@ -266,6 +268,7 @@ footer {
 	}
 
 	#contact {
+		line-height: 1.3rem;
 		width: 40%;
 		padding-left: 22px;
 		float: left;
