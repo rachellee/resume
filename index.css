@@ -138,7 +138,7 @@ ul {
 	Media Queries
    =========================================================================================== */
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) {
 	.sections {
 		width: 90%;
 	}
