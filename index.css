@@ -404,6 +404,15 @@ footer {
 		text-align: justify;
 	}
 
+	footer {
+		height: 295px;
+	}
+
+	#contact_container {
+		padding-top: 34px;
+	}
+
+
 	#contact {
 		line-height: 1.5rem;
 		width: 40%;
