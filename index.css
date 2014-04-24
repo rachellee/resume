@@ -407,7 +407,7 @@ footer {
 	#contact {
 		line-height: 1.5rem;
 		width: 40%;
-		padding-left: 82px;
+		padding-left: 27px;
 		float: left;
 	}
 
@@ -417,7 +417,7 @@ footer {
 	}
 
 	#social {
-		width: 44%;
+		width: 50%;
 		margin: 0px auto;
 		padding-right: 6px;
 	}
