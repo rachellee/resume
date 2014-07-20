@@ -149,8 +149,8 @@ ul {
 
 .blog_container {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	margin: 6rem auto;
-	max-width: 600px;
+	margin: auto;
+	max-width: 800px;
 	width: 100%;
 }
 
