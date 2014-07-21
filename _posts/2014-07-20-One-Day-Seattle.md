@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The One-Day food tour of Seattle
-published:false
+published: false
 ---
 
 My boyfriend and I love to eat and drink craft beer, so when we travel, we basically eat and drink our way through the city with various activities mixed in.
