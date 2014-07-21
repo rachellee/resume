@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: post
 title: I got love for my city.
 ---
 
-<center><img src="/images/skyline.jpg"></center>
-Seattle, Washington. The 206. The Rainy City. Coffee Capitol of the World.
+<center><img src="/images/skyline.jpg" class="post_img"></center>
+
+Seattle, Washington. The 206. The Rainy City. Coffee Capital of the World.
 
 This is my city.
 

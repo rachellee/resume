@@ -1,5 +1,12 @@
 ---
 layout: default
-title: Blogging Like a Hacker
-permalink: blogging_like_a_hacker.html
 ---
+
+<div class="blog_container">
+	<div class="post_header">
+		{{ page.date | date: "%B %-d, %Y" }} - <a href = {{ page.url }}> {{ page.title }} </a>
+	</div>
+	<div class="post_content">
+		{{ page.content}}
+	</div>
+</div>

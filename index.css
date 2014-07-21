@@ -139,28 +139,33 @@ ul {
 	Blog index styling
    =========================================================================================== */
 
-.image_div_uw {
-	width: 100%;
-	height: 450px;
-	margin: 6rem auto 0rem auto;
-	padding: 0px;
-	overflow: hidden;
-}
-
 .blog_container {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	margin: 7rem 10rem;
-	max-width: 900px;
+	margin: 8rem auto;
+	max-width: 600px;
 	width: 100%;
+	padding-bottom: 0rem;
 }
 
 .post_header {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 100;
 	font-size: 24px;
-	padding-bottom: 7rem;
 }
 
+.post_content {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 0.95rem;
+	line-height: 1.5rem;
+	text-align: justify;
+	color: #757575;
+	padding-top: 1rem;
+	padding-bottom: 4rem;
+}
+
+.post_img {
+	max-width: 600px;
+}
 
 /* ===========================================================================================
 	Portfolio page styling
