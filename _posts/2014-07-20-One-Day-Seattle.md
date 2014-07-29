@@ -12,14 +12,18 @@ Pike Place Chowder<BR>
 <BR><BR>
 
 Paseo<BR>
-Location: <BR>
-Price Range: <BR>
+Location: Fremont (Flagship) or Ballard<BR>
+Price Range: $ (~$10/person)<BR>
+
 <BR><BR>
+
 Taylor's Shellfish Farm
 
 <BR><BR>
 Bakery Nouveau
 <BR><BR>
-Victrola
+Vivace<BR>
+
+
 <BR><BR>
 Seattle is well known for our salmon, but did you know we have fantasticly fresh and delicious oysters and geoduck, too? The perfect place to get a taste for this is 
