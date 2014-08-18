@@ -1,3 +1,6 @@
+---
+---
+
 /*
  Width: 1000px
  # Columns : 
@@ -9,15 +12,39 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Quicksand|Josefin+Sans|Julius+Sans+One);
 
+$header-font-stack: 'Julius Sans One', 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+$text-font-stack: 'Lato', 'Open Sans', 'Verdana', Helvetica, Arial, sans-serif;
+
+@mixin large-block-image {
+	width: 100%;
+	margin: 6rem auto 0rem auto;
+	padding: 0px;
+	overflow: hidden;
+}
+
+@mixin body-text {
+	font-family: $text-font-stack;
+	font-size: .95rem;
+	font-weight: 300;
+	line-height: 1.5rem;
+	color: #757575;
+}
+
+@mixin lettering_container {
+	margin: 5rem auto;
+	width: 85%;
+	padding-bottom: 3rem;
+}
+
 body {
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	margin: 0rem;
 	padding: 0rem;
 }
 
 #main-header {
 	height: 12.5rem;
-	font-family: 'Julius Sans One', 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: $header-font-stack;
 	color: #9AD8D0;
 	font-size: 6rem;
 	font-weight: 700;
@@ -28,12 +55,13 @@ body {
 	padding-left: 1rem;
 }
 
-header a {
+header {
+	a {
 	color: #9AD8D0;
-}
-
-header a:hover {
+	}
+	a:hover {
 	color: #D7F4F0;
+	}
 }
 
 nav {
@@ -48,10 +76,9 @@ a {
 	text-decoration: none;
 	white-space: 2rem;
 	color: #717171;
-}
-
-a:hover {
+	a:hover {
 	color: #D1D1D1;
+	}
 }
 
 #nav-link {
@@ -65,23 +92,17 @@ a:hover {
 }
 
 .image_div_uw {
-	width: 100%;
 	height: 500px;
-	margin: 6rem auto 0rem auto;
-	padding: 0px;
-	overflow: hidden;
+	@include large-block-image;
 }
 
 .image_div_colosseum {
-	width: 100%;
 	height: 450px;
-	margin: 6rem auto 0rem auto;
-	padding: 0px;
-	overflow: hidden;
+	@include large-block-image;
 }
 
 .sections {
-	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: $text-font-stack;
 	margin: 6rem auto;
 	max-width: 570px;
 	width: 100%;
@@ -89,7 +110,7 @@ a:hover {
 }
 
 h1 {
-	font-family: 'Julius Sans One', 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: $header-font-stack;
 	font-size: 1.5rem;
 	font-weight: 400;
 	color: #9AD8D0;
@@ -111,27 +132,19 @@ h2 {
 }
 
 p {
-	font-family: 'Lato', 'Open Sans', 'Verdana', Helvetica, Arial, sans-serif;
-	font-size: .95rem;
-	font-weight: 300;
-	line-height: 1.5rem;
-	color: #757575;
+	font-family: $text-font-stack;
 	margin-top: 0.5rem;
-}
-
-p a {
-	text-decoration: underline;
+	@include body-text;
+	a {
+		text-decoration: underline;
+	}
 }
 
 ul {
-	font-family: 'Lato', 'Open Sans', 'Verdana', Helvetica, Arial, sans-serif;
-	font-size: 0.95rem;
 	font-style: none;
-	font-weight: 300;
-	color: #757575;
-	line-height: 1.5rem;
 	margin-top: -.7rem;
 	padding: 0rem 2rem;
+	@include body-text;
 }
 
 
@@ -153,12 +166,8 @@ ul {
 }
 
 .post_content {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	font-size: 0.95rem;
-	line-height: 1.5rem;
+	@include body-text;
 	text-align: justify;
-	color: #757575;
 	padding-top: 1rem;
 	padding-bottom: 4rem;
 }
@@ -173,13 +182,30 @@ ul {
    =========================================================================================== */
 
 .portfolio_container {
-	font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: $text-font-stack;
 	font-weight: 300;
 	line-height: 2rem;
-	margin: 6rem auto;
+	margin: 3rem auto;
 	max-width: 600px;
 	width: 100%;
+	a:hover {
+		text-decoration: underline;
+	}
 }
+
+.lettering_container {
+	@include body-text;
+	text-align: left;
+	margin: 5rem auto;
+	max-width: 600px;
+	width: 80%;
+}
+
+.handtype {
+	width: 300px;
+}
+
+
 
 /* ===========================================================================================
 	Contact footer styling
@@ -229,7 +255,6 @@ footer {
 
 
 
-
 /* ===========================================================================================
 	Media Queries
    =========================================================================================== */
@@ -244,7 +269,7 @@ footer {
 
 	.image_div_uw {
 		width: 100%;
-		height: 388px;
+		height: 330px;
 		margin: 5rem auto 0rem auto;
 		padding: 0px;
 		overflow: hidden;
@@ -301,6 +326,16 @@ footer {
 		padding: 0px;
 		overflow: hidden;
 	}
+
+	/* portfolio (all) */
+	.portfolio_container {
+		margin: 6rem auto;
+		width: 85%;
+	}
+
+	.lettering_container {
+		@include lettering_container;
+	}
 }
 
 /* Smartphones (portrait) custom ----------- */
@@ -313,7 +348,7 @@ footer {
 
 	.image_div_uw {
 		width: 100%;
-		height: 388px;
+		height: 330px;
 		margin: 5rem auto 0rem auto;
 		padding: 0px;
 		overflow: hidden;
@@ -365,6 +400,21 @@ footer {
 		padding: 0px;
 		overflow: hidden;
 	}
+
+	/* portfolio (all) */
+	.portfolio_container {
+		margin: 6rem auto;
+		width: 85%;
+	}
+
+	.lettering_container {
+		@include lettering_container;
+	}
+
+	.handtype {
+		width: 95%;
+	}
+
 }
 
 /* Smartphones (landscape) custom ----------- */
@@ -433,6 +483,21 @@ footer {
 		padding: 0px;
 		overflow: hidden;
 	}
+
+	/* portfolio (all) */
+	.portfolio_container {
+		margin: 6rem auto;
+		width: 85%;
+	}
+
+	.lettering_container {
+		@include lettering_container;
+	}
+
+	.handtype {
+		width: 95%;
+	}
+
 }
 
 
@@ -488,6 +553,17 @@ footer {
 		padding: 0px;
 		overflow: hidden;
 	}
+
+	/* portfolio (all) */
+	.portfolio_container {
+		margin: 6rem auto;
+		width: 85%;
+	}
+
+	.lettering_container {
+		@include lettering_container;
+	}
+
 }
 
 /* Desktops and laptops ----------- */
@@ -525,6 +601,17 @@ footer {
 		padding: 0px;
 		overflow: hidden;
 	}
+
+	/* portfolio (all) */
+	.portfolio_container {
+		margin: 6rem auto;
+		width: 85%;
+	}
+
+	.lettering_container {
+		@include lettering_container;
+	}
+
 }
 
 /* Large screens ----------- */
@@ -562,6 +649,17 @@ footer {
 		padding: 0px;
 		overflow: hidden;
 	}
+
+	/* portfolio (all) */
+	.portfolio_container {
+		margin: 6rem auto;
+		width: 85%;
+	}
+
+	.lettering_container {
+		@include lettering_container;
+	}
+
 }
 
 /* iPhone 4 ----------- */
@@ -645,6 +743,14 @@ footer {
 		padding: 0px;
 		overflow: hidden;
 	}
-}
-}
 
+	/* portfolio (all) */
+	.portfolio_container {
+		margin: 6rem auto;
+		width: 85%;
+	}
+
+	.lettering_container {
+		@include lettering_container;
+	}
+}
