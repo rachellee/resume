@@ -3,7 +3,7 @@ layout: post
 title: New Year, New Beginnings
 ---
 
-I’ve been trying to figure out what I want to blog about for almost a year now. I’ve started a few different blogs at different times and have been trying to figure out what to blog about for the past year. First it was tumblr inspos (who doesn’t love 2010’s Pinterest?), then it was gardening (I live for sustainable eating, succulents, and orchids), then it was food (I love trying new restaurants, recipes, and am an avid yelper - elite woot woot!). But I always found a reason to tell myself why I shouldn’t do it and none of those stuck.
+I’ve been trying to figure out what I want to blog about for almost a year now. First it was tumblr inspos (who doesn’t love 2010’s Pinterest?), then it was gardening (I live for sustainable eating, succulents, and orchids), then it was food (I love trying new restaurants, recipes, and am an avid yelper - <a href="https://rachellee.yelp.com" target="blank">Elite</a> woot woot!). But I always found a reason to tell myself why I shouldn’t do it and none of those stuck.
 
 This year’s going to be different.
 

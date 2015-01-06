@@ -9,7 +9,7 @@
  */
 
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans|Julius+Sans+One|Antic);
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Antic);
 
 $header-font-stack: 'Julius Sans One', 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
 $text-font-stack: 'Lato', 'Antic', 'Verdana', Helvetica, Arial, sans-serif;
@@ -22,8 +22,8 @@ $text-font-stack: 'Lato', 'Antic', 'Verdana', Helvetica, Arial, sans-serif;
 }
 
 @mixin body-text {
-	font-family: $text-font-stack;
-	font-size: .95rem;
+	font-family: "Lato";
+	font-size: 1rem;
 	font-weight: 300;
 	line-height: 1.5rem;
 	color: #757575;
@@ -42,7 +42,7 @@ body {
 }
 
 #main-header {
-	height: 12.5rem;
+	height: 10.5rem;
 	font-family: $header-font-stack;
 	color: #9AD8D0;
 	font-size: 6rem;
@@ -50,7 +50,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 0.8rem;
 	text-align: center;
-	padding-top: 7rem;
+	padding-top: 5rem;
 	padding-left: 1rem;
 }
 
@@ -69,12 +69,14 @@ nav {
 	text-align: center;
 	text-transform: lowercase;
 	letter-spacing: .3rem;
+	padding-bottom: 3rem;
 }
 
 a {
 	text-decoration: none;
 	color: #717171;
 	text-transform: uppercase;
+	white-space: 2rem;
 	a:hover {
 	color: #D1D1D1;
 	}
@@ -202,27 +204,35 @@ ul {
    =========================================================================================== */
 
 .portfolio_container {
-	font-family: $text-font-stack;
+	font-family: "Antic";
 	font-weight: 300;
-	line-height: 2rem;
-	margin: 3rem auto;
-	max-width: 600px;
+	line-height: 1.2rem;
+	margin: 5rem auto;
+	max-width: 900px;
 	width: 100%;
+	a {
+		text-transform: none;
+	}
 	a:hover {
 		text-decoration: underline;
 	}
 }
 
-.lettering_container {
-	@include body-text;
-	text-align: left;
-	margin: 5rem auto;
-	max-width: 600px;
-	width: 80%;
+.projects {
+	padding-right: 20px;
 }
 
-.handtype {
+.project1,
+.project2 {
 	width: 300px;
+	height: 300px;
+	vertical-align: top;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	text-align: center;
+	font-size: 0.8rem;
+	padding-right: 20px;
 }
 
 
