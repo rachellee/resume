@@ -41,28 +41,6 @@ body {
 	padding: 0rem;
 }
 
-#main-header {
-	height: 10.5rem;
-	font-family: $header-font-stack;
-	color: #9AD8D0;
-	font-size: 6rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.8rem;
-	text-align: center;
-	padding-top: 5rem;
-	padding-left: 1rem;
-}
-
-#main-header {
-	a {
-	color: #9AD8D0;
-	}
-	a:hover {
-	color: #D7F4F0;
-	}
-}
-
 #cssmenu {
   font-family: $text-font-stack;
   font-size: 0.75rem;
@@ -204,6 +182,28 @@ body {
   #cssmenu > ul ul li.collapsed {
     display: block !important;
   }
+}
+
+#main-header {
+	height: 10.5rem;
+	font-family: $header-font-stack;
+	color: #9AD8D0;
+	font-size: 6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.8rem;
+	text-align: center;
+	padding-top: 5rem;
+	padding-left: 1rem;
+}
+
+#main-header {
+	a {
+	color: #9AD8D0;
+	}
+	a:hover {
+	color: #D7F4F0;
+	}
 }
 
 a {
