@@ -688,7 +688,11 @@ footer {
 	/* portfolio (all) */
 	.portfolio_container {
 		margin: 6rem auto;
-		width: 54%;
+	}
+
+	.project1, .project2 {
+		padding: none;
+		width: 100%;
 	}
 }
 
