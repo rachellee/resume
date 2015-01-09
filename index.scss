@@ -359,7 +359,6 @@ ul {
 	max-width: 800px;
 	width: 100%;
 	margin: 0 auto 0 auto;
-	
 	padding-bottom: 2rem;
 	font-family: $text-font-stack;
 	border-bottom: 1px dotted #000000;
@@ -394,7 +393,8 @@ ul {
 /* ===========================================================================================
 	TAGS
    =========================================================================================== */
-#tags_container {
+
+.tags_container {
 	font-family: $text-font-stack;
 	font-weight: 300;
 	line-height: 1.2rem;
@@ -406,10 +406,11 @@ ul {
 	}
 	a:hover {
 		text-decoration: none;
+		color: #D1D1D1;
 	}
 }
 
-#tags_container ul {
+.tags_container ul {
 	padding-bottom: 3rem;
 }
 
@@ -468,18 +469,14 @@ footer {
 /* iPhone 4 ----------- */
 @media screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 	#main-header {
-		font-size: 2.9rem;
-		padding-top: 6rem;
+		font-size: 3.4rem;
+		padding-top: 5rem;
 		height: 9rem;
-	}
-
-	nav {
-		letter-spacing: 0.2rem;
 	}
 
 	.image_div_uw {
 		width: 100%;
-		height: 380px;
+		height: 330px;
 		margin: 5rem auto 0rem auto;
 		padding: 0px;
 		overflow: hidden;
@@ -487,18 +484,20 @@ footer {
 
 	.sections {
 		width: 85%;
-		text-align: justify;
 	}
 
-	footer {
-		height: 284px;
+	#blog-link {
+		margin: 0 0.4rem;
+	}
+
+	#footer-link {
+		margin: 0 1rem;
 	}
 
 	/* blog */
 	.blog_container {
-		margin: 4rem auto;
+		margin: 4rem auto 0 auto;
 		width: 85%;
-		padding-bottom: 0rem;
 	}
 
 	.post_header {
@@ -507,7 +506,9 @@ footer {
 
 	.post_content {
 		font-size: 0.95rem;
-		padding-top: 1rem;
+		line-height: 1.5rem;
+		text-align: justify;
+		padding-bottom: 4rem;
 	}
 
 	.post_img {
@@ -516,10 +517,12 @@ footer {
 		overflow: hidden;
 	}
 
-	/* portfolio (all) */
-	.portfolio_container {
-		margin: 4rem auto;
+	.category_container, .portfolio_container, .subscribe_container, .tags_container {
 		width: 85%;
+	}
+
+	.portfolio_container, .project1, .project2  {
+		width: 100%;
 	}
 }
 
@@ -574,7 +577,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.category_container, .portfolio_container, .subscribe_container {
+	.category_container, .portfolio_container, .subscribe_container, .tags_container {
 		width: 85%;
 	}
 
@@ -599,7 +602,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections, .category_container, .subscribe_container, .blog_container {
+	.sections, .category_container, .subscribe_container, .blog_container, .tags_container {
 		width: 85%;
 	}
 
@@ -655,7 +658,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections, .blog_container, .category_container, .subscribe_container {
+	.sections, .blog_container, .category_container, .subscribe_container, .tags_container {
 		width: 85%;
 	}
 
@@ -697,7 +700,7 @@ footer {
 		font-size: 6rem; 
 	}
 
-	.sections, .blog_container, .category_container, .subscribe_container{
+	.sections, .blog_container, .category_container, .subscribe_container, .tags_container {
 		width: 85%;
 	}
 
