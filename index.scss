@@ -110,6 +110,7 @@ body {
   background-repeat: no-repeat;
   background-position: 90% -95%;
 }
+
 #cssmenu > ul li.has-sub > a.active,
 #cssmenu > ul li.has-sub > a:hover {
   background: #d80041 url('images/caret.png') no-repeat;
@@ -131,21 +132,22 @@ body {
 
 @media screen and (max-width: 600px) {
   #cssmenu > ul {
-    width: 90%;
+    width: 155px;
+    margin: 0rem auto;
   }
   #cssmenu > ul li#responsive-tab {
     display: block;
   }
   #cssmenu > ul li#responsive-tab a {
     background: url('images/menu.png') no-repeat;
-    background-position: 32% -23%;
+    background-position: 12% -21%;
   }
   #cssmenu > ul li#responsive-tab a:hover {
-    background-color: #d80041;
+    background: transparent;
     background-position: 95% 135%;
   }
   #cssmenu > ul li {
-    display: none;
+    display: none;  
   }
   #cssmenu > ul li.right {
     float: none;
@@ -162,10 +164,10 @@ body {
   }
   #cssmenu > ul li.has-sub ul li {
     display: block !important;
+    padding-left: 3.5rem;
   }
   #cssmenu > ul li.has-sub ul li a span {
     display: block;
-    padding-left: 24px;
   }
   #cssmenu > ul li.has-sub > a {
     background-image: none;
