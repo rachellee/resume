@@ -54,7 +54,7 @@ body {
 	padding-left: 1rem;
 }
 
-header {
+#main-header {
 	a {
 	color: #9AD8D0;
 	}
@@ -63,13 +63,147 @@ header {
 	}
 }
 
-nav {
-	font-family: Arial, sans-serif;
-	font-size: 0.75rem;
-	text-align: center;
+#cssmenu {
+  font-family: $text-font-stack;
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: center;
 	text-transform: lowercase;
-	letter-spacing: .3rem;
-	padding-bottom: 3rem;
+	letter-spacing: 0.3rem;
+}
+
+#cssmenu > ul {
+  font-size: 0.75rem;
+  width: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+#cssmenu > ul li#responsive-tab {
+  display: none;
+  /* Hide for large screens */
+}
+
+#cssmenu > ul li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+
+#cssmenu > ul li.right {
+  float: right;
+}
+
+#cssmenu > ul li.has-sub {
+  position: relative;
+}
+#cssmenu > ul li.has-sub:hover ul {
+  display: block;
+}
+#cssmenu > ul li.has-sub ul {
+  font-size: 0.75rem;
+  text-align: left;
+  display: none;
+  width: 190px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #ffffff;
+  border: 1px solid #ece6e8;
+  border-bottom: 1px solid #d9ced2;
+  border-top: 0 none;
+}
+
+#cssmenu > ul li.has-sub ul li {
+  display: block;
+}
+
+#cssmenu > ul li.has-sub > a {
+  background-image: url('images/caret.png');
+  background-repeat: no-repeat;
+  background-position: 90% -95%;
+}
+#cssmenu > ul li.has-sub > a.active,
+#cssmenu > ul li.has-sub > a:hover {
+  background: #d80041 url('images/caret.png') no-repeat;
+  background-position: 90% 195%;
+}
+
+#cssmenu > ul li a {
+  display: block;
+  padding: 0.3rem 1.125rem 0 1.125rem;
+  text-decoration: none;
+  color: #747474;
+}
+
+#cssmenu > ul li a.active,
+#cssmenu > ul li a:hover {
+  background: #fff;
+  color: #D1D1D1;
+}
+
+@media screen and (max-width: 600px) {
+  #cssmenu > ul {
+    width: 100%;
+  }
+  #cssmenu > ul li#responsive-tab {
+    display: block;
+  }
+  #cssmenu > ul li#responsive-tab a {
+    background: url('images/menu.png') no-repeat;
+    background-position: 32% -23%;
+  }
+  #cssmenu > ul li#responsive-tab a:hover {
+    background-color: #d80041;
+    background-position: 95% 135%;
+  }
+  #cssmenu > ul li {
+    display: none;
+  }
+  #cssmenu > ul li.right {
+    float: none;
+  }
+  #cssmenu > ul li.has-sub {
+    position: relative;
+  }
+  #cssmenu > ul li.has-sub ul {
+    display: block;
+    position: static;
+    width: 100%;
+    background: #ffffff;
+    border: 0 none;
+  }
+  #cssmenu > ul li.has-sub ul li {
+    display: block !important;
+  }
+  #cssmenu > ul li.has-sub ul li a span {
+    display: block;
+    padding-left: 24px;
+  }
+  #cssmenu > ul li.has-sub > a {
+    background-image: none;
+  }
+}
+
+/* Make sure they show even if hidden in mobile view by JS */
+@media screen and (min-width: 600px) {
+  #cssmenu > ul > li.collapsed {
+    display: inline-block !important;
+    *display: inline;
+    zoom: 1;
+  }
+  #cssmenu > ul ul li.collapsed {
+    display: block !important;
+  }
 }
 
 a {
@@ -80,10 +214,6 @@ a {
 	a:hover {
 	color: #D1D1D1;
 	}
-}
-
-#nav-link {
-	margin: 0rem 0.7rem;
 }
 
 .main-container {
@@ -179,6 +309,24 @@ ul {
 /* ===========================================================================================
 	Blog index styling
    =========================================================================================== */
+.blog_topics {
+	margin: 8rem auto 0rem auto;
+	max-width: 570px;
+	width: 100%;
+	padding-bottom: 0rem;
+	font-family: $text-font-stack;
+}
+
+.blog_topics a {
+	text-decoration: none;
+	color: #bebdbd;
+	text-transform: none;
+	font-weight: 300;
+	a:hover {
+	color: #D1D1D1;
+	}
+}
+
 .blog_container {
 	margin: 8rem auto 0rem auto;
 	max-width: 570px;
@@ -451,7 +599,6 @@ footer {
 		width: 54%;
 	}
 }
-
 
 /* iPads (portrait and landscape) ----------- */
 @media screen and (min-width: 578px) and (max-width: 1024px) {

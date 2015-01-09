@@ -7,10 +7,12 @@ I’ve been trying to figure out what I want to blog about for almost a year now
 
 This year’s going to be different.
 
-This year, I have a clear vision of what I want to blog about and it’s not something I can talk myself out of due to my own unsureness. This year I’m getting my ish together and doing this regularly!
+This year, I have a clear vision of what I want to blog about and it’s not something I can talk myself out of due to my own unsureness. This year I’m getting my ish together and doing this regularly.
 
 My new years resolution this year is to design on a regular basis and blog about it. I might include some other things, but the over arching theme will always be design. Industrial Design. Web Design. Print Design. Interior Design. Any and all of it.
 
 Plus this is a good way to share my work with friends and family who are curious as to what I do every day, but this is mostly to keep myself in check and making sure I’m spending most of my time doing or thinking about design.
 
 2015, I’m ready for ya.
+
+Tags: <a href="/tags/#design">design</a> 
