@@ -307,11 +307,11 @@ ul {
 }
 
 /* ===========================================================================================
-	Blog index styling
+	BLOG INDEX
    =========================================================================================== */
 .blog_topics {
 	margin: 8rem auto 0rem auto;
-	max-width: 570px;
+	max-width: 800px;
 	width: 100%;
 	padding-bottom: 0rem;
 	font-family: $text-font-stack;
@@ -329,9 +329,10 @@ ul {
 
 .blog_container {
 	margin: 8rem auto 0rem auto;
-	max-width: 570px;
+	max-width: 800px;
 	width: 100%;
-	padding-bottom: 0rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px dotted #000000;
 }
 
 .post_header {
@@ -344,11 +345,48 @@ ul {
 	@include body-text;
 	text-align: justify;
 	padding-top: 1rem;
+	padding-bottom: 3rem;
 }
 
 .post_img {
 	max-width: 570px;
 	padding-bottom: 1rem;
+}
+
+.category_container {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-family: $text-font-stack;
+	border-bottom: 1px dotted #000000;
+}
+
+.category_container a {
+	text-decoration: none;
+	color: #bebdbd;
+	text-transform: none;
+	font-size: 1.1rem;
+	font-weight: 300;
+	line-height: 2rem;
+	a:hover {
+	color: #D1D1D1;
+	}
+}
+
+.subscribe_container {
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px dotted #000000;
+}
+
+#mc_embed_signup_scroll {
+	font-family: $text-font-stack;
+	font-weight: 300;
 }
 
 /* ===========================================================================================
@@ -367,6 +405,10 @@ ul {
 	a:hover {
 		text-decoration: none;
 	}
+}
+
+#tags_container ul {
+	padding-bottom: 3rem;
 }
 
 /* ===========================================================================================
@@ -490,6 +532,14 @@ footer {
 		width: 100%;
 		padding: 0px;
 		overflow: hidden;
+	}
+
+	.category_container {
+		width: 85%;
+	}
+
+	.subscribe_container {
+		width: 85%;
 	}
 
 	/* portfolio (all) */
