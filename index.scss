@@ -319,6 +319,14 @@ ul {
 	font-family: $text-font-stack;
 }
 
+.blog_container {
+	margin: 8rem auto 0rem auto;
+	max-width: 800px;
+	width: 100%;
+	padding-bottom: 1rem;
+	border-bottom: 1px dotted #000000;
+}
+
 .blog_container a {
 	text-decoration: none;
 	color: #bebdbd;
@@ -327,14 +335,6 @@ ul {
 	a:hover {
 	color: #D1D1D1;
 	}
-}
-
-.blog_container {
-	margin: 8rem auto 0rem auto;
-	max-width: 800px;
-	width: 100%;
-	padding-bottom: 1rem;
-	border-bottom: 1px dotted #000000;
 }
 
 .post_header {
@@ -359,7 +359,7 @@ ul {
 	max-width: 800px;
 	width: 100%;
 	margin: 0 auto 0 auto;
-	padding-top: 2rem;
+	
 	padding-bottom: 2rem;
 	font-family: $text-font-stack;
 	border-bottom: 1px dotted #000000;
