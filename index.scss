@@ -282,6 +282,7 @@ h2 {
 
 p {
 	font-family: $text-font-stack;
+	font-weight: 300;
 	margin-top: 0rem;
 	@include body-text;
 	a {
@@ -591,7 +592,7 @@ footer {
 /* Smartphones (portrait) custom ----------- */
 @media screen and (min-width: 369px) and (max-width: 480px) {
 	#main-header {
-		font-size: 4.5rem; 
+		font-size: 4.2rem; 
 		padding-top: 5rem;
 		height: 9rem;
 	}
@@ -604,12 +605,17 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections, .portfolio, .category_container, .subscribe_container, .blog_container, .tags_container {
+	.story_section, .portfolio_section, .blog_section, .resume_section, .category_container, .subscribe_container, .blog_container, .tags_container {
 		width: 85%;
+		font-weight: 300;
 	}
 
 	#blog-link {
 		margin: 0 1rem;
+	}
+
+	#footer_link {
+		margin: 0 2rem;
 	}
 
 	/* blog */
@@ -660,17 +666,18 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections, .portfolio, .blog_container, .category_container, .subscribe_container, .tags_container {
+	.story_section, .portfolio_section, .resume_section, .blog_section, .blog_container, .category_container, .subscribe_container, .tags_container {
 		width: 85%;
+		font-weight: 300;
 	}
 
 	#blog-link {
-		margin: 0 1.4rem;
+		margin: 0 1.2rem;
 	}
 
 	/* blog */
 	.blog_container {
-		margin: 4rem auto;
+		margin: 4rem auto 0 auto;
 	}
 
 	.post_header {
@@ -691,7 +698,7 @@ footer {
 
 	/* portfolio (all) */
 	.portfolio_container {
-		margin: 6rem auto;
+		margin: 3rem auto;
 	}
 
 	.project1, .project2 {
@@ -706,9 +713,13 @@ footer {
 		font-size: 6rem; 
 	}
 
-	.story_section, .portfolio_section, .blog_section, .blog_container, .category_container, .subscribe_container, .tags_container {
+	.story_section, .portfolio_section, .blog_section, .resume_section, .blog_container, .category_container, .subscribe_container, .tags_container {
 		width: 85%;
-		font-family: $text-font-stack;
+		font-weight: 300;
+	}
+
+	#blog-link {
+		margin: 0 1.5rem;
 	}
 
 	/* blog */
