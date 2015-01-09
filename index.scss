@@ -317,7 +317,7 @@ ul {
 	font-family: $text-font-stack;
 }
 
-.blog_topics a {
+.blog_container a {
 	text-decoration: none;
 	color: #bebdbd;
 	text-transform: none;
@@ -352,7 +352,25 @@ ul {
 }
 
 /* ===========================================================================================
-	Portfolio page styling
+	TAGS
+   =========================================================================================== */
+#tags_container {
+	font-family: $text-font-stack;
+	font-weight: 300;
+	line-height: 1.2rem;
+	margin: 5rem auto;
+	max-width: 800px;
+	width: 100%;
+	a {
+		text-transform: none;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+/* ===========================================================================================
+	PORTFOLIO
    =========================================================================================== */
 
 .portfolio_container {
