@@ -483,8 +483,9 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections, .portfolio, .category_container, .subscribe_container, .blog_container, .tags_container {
+	.story_section, .portfolio_section, .blog_section, .resume_section, .blog_container, .category_container, .subscribe_container, .tags_container {
 		width: 85%;
+		font-weight: 300;
 	}
 
 	#blog-link {
@@ -517,12 +518,29 @@ footer {
 		overflow: hidden;
 	}
 
+	.subscribe_container {
+		padding: none;
+		margin: 0 auto;
+	}
+
+	#mc-embedded-subscribe-form, #mc_embed_signup {
+		width: 80%;
+		padding: none;
+	}
+
+	/* portfolio */
 	.portfolio_container, .project1, .project2  {
 		width: 100%;
 	}
 
 	.projects {
 		width: 98%;
+	}
+
+	.portfolio_section, .portfolio_container {
+		margin-top: 2rem;
+		margin-bottom: 0rem;
+		padding: none;
 	}
 }
 
