@@ -153,7 +153,7 @@ body {
 
 @media screen and (max-width: 600px) {
   #cssmenu > ul {
-    width: 100%;
+    width: 90%;
   }
   #cssmenu > ul li#responsive-tab {
     display: block;
@@ -288,7 +288,7 @@ ul {
 	font-weight: 300;
 	line-height: 1.2rem;
 	margin: 5rem auto;
-	max-width: 900px;
+	max-width: 800px;
 	width: 100%;
 	a {
 		text-transform: none;
@@ -430,24 +430,17 @@ ul {
 	}
 }
 
-.projects {
-	padding-right: 20px;
-}
-
 .project1,
 .project2 {
-	width: 300px;
 	height: 300px;
+	padding-right: 20px;
 	vertical-align: top;
 	display:inline-block;
 	*display:inline;
 	zoom:1;
 	text-align: center;
 	font-size: 0.8rem;
-	padding-right: 20px;
 }
-
-
 
 /* ===========================================================================================
 	FOOTER
@@ -471,9 +464,9 @@ footer {
    =========================================================================================== */
 
 /* Smartphones (portrait) ----------- */
-@media screen and (min-width: 300px) and (max-width: 360px) {
+@media screen and (min-width: 300px) and (max-width: 368px) {
 	#main-header {
-		font-size: 3rem;
+		font-size: 3.4rem;
 		padding-top: 5rem;
 		height: 9rem;
 	}
@@ -488,15 +481,6 @@ footer {
 
 	.sections {
 		width: 85%;
-	}
-
-	nav {
-		font-size: 0.6rem;
-		line-height: 2rem;
-	}
-
-	#nav-link {
-		margin: 0 0.3rem;
 	}
 
 	#blog-link {
@@ -518,13 +502,9 @@ footer {
 	}
 
 	.post_content {
-		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-		font-weight: 300;
 		font-size: 0.95rem;
 		line-height: 1.5rem;
 		text-align: justify;
-		color: #757575;
-		padding-top: 1rem;
 		padding-bottom: 4rem;
 	}
 
@@ -534,23 +514,17 @@ footer {
 		overflow: hidden;
 	}
 
-	.category_container {
+	.category_container, .portfolio_container, .project1, .project2 {
 		width: 85%;
 	}
 
 	.subscribe_container {
 		width: 85%;
 	}
-
-	/* portfolio (all) */
-	.portfolio_container {
-		margin: 6rem auto;
-		width: 85%;
-	}
 }
 
 /* Smartphones (portrait) custom ----------- */
-@media screen and (min-width: 361px) and (max-width: 480px) {
+@media screen and (min-width: 369px) and (max-width: 480px) {
 	#main-header {
 		font-size: 4.5rem; 
 		padding-top: 5rem;
@@ -565,16 +539,8 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections {
+	.sections, .category_container, .subscribe_container, .blog_container {
 		width: 85%;
-	}
-
-	nav {
-		font-size: 0.6rem;
-	}
-
-	#nav-link {
-		margin: 0 0.3rem;
 	}
 
 	#blog-link {
@@ -584,7 +550,6 @@ footer {
 	/* blog */
 	.blog_container {
 		margin: 4rem auto 0 auto;
-		width: 85%;
 		padding-bottom: 0rem;
 	}
 
@@ -605,8 +570,8 @@ footer {
 
 	/* portfolio (all) */
 	.portfolio_container {
+		width: 65%;
 		margin: 5rem auto;
-		width: 85%;
 	}
 }
 
@@ -618,11 +583,6 @@ footer {
 		height: 9rem;
 	}
 
-	nav {
-		letter-spacing: 0.2rem;
-		font-size: 0.7rem;
-	}
-
 	.image_div_uw {
 		width: 100%;
 		height: 380px;
@@ -631,7 +591,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections {
+	.sections, .blog_container, .category_container, .subscribe_container {
 		width: 85%;
 	}
 
@@ -642,7 +602,6 @@ footer {
 	/* blog */
 	.blog_container {
 		margin: 4rem auto;
-		width: 85%;
 	}
 
 	.post_header {
@@ -674,18 +633,15 @@ footer {
 		font-size: 6rem; 
 	}
 
-	.sections {
+	.sections, .blog_container, .category_container, .subscribe_container {
 		width: 85%;
-	}
-
-	nav {
-		font-style: 0.6rem;
 	}
 
 	/* blog */
 	.blog_container {
 		margin-top: 6rem;
 	}
+
 	.post_header {
 		font-size: 1.5rem;
 	}
@@ -703,11 +659,10 @@ footer {
 	/* portfolio (all) */
 	.portfolio_container {
 		margin: 6rem auto;
-		width: 85%;
+		max-width: 500px;
+		width: 100%
 	}
 }
-
-
 
 /* iPhone 4 ----------- */
 @media screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
