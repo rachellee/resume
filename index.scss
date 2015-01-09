@@ -339,7 +339,7 @@ ul {
 	padding-bottom: 1rem;
 }
 
-.category_container {
+.category_container, .subscribe_container {
 	max-width: 800px;
 	width: 100%;
 	margin: 0 auto 0 auto;
@@ -358,15 +358,6 @@ ul {
 	a:hover {
 	color: #D1D1D1;
 	}
-}
-
-.subscribe_container {
-	max-width: 800px;
-	width: 100%;
-	margin: 0 auto 0 auto;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	border-bottom: 1px dotted #000000;
 }
 
 #mc_embed_signup_scroll {
@@ -428,6 +419,31 @@ ul {
 	zoom:1;
 	text-align: center;
 	font-size: 0.8rem;
+}
+
+/* ===========================================================================================
+	RESUME
+   =========================================================================================== */
+.resume_section {
+	font-family: $text-font-stack;
+	margin: 2rem auto;
+	padding-bottom: 3rem;
+	max-width: 800px;
+	width: 100%;
+	text-align: justify;
+	a {
+		text-decoration: none;
+		text-transform: none;
+		font-weight: 300;
+		color: #bebdbd;
+	}
+	a:hover {
+		color: #D1D1D1;
+	}
+}
+
+.resume {
+	padding-top: 2rem;
 }
 
 /* ===========================================================================================
@@ -690,8 +706,9 @@ footer {
 		font-size: 6rem; 
 	}
 
-	.sections, .portfolio, .blog_container, .category_container, .subscribe_container, .tags_container {
+	.story_section, .portfolio_section, .blog_section, .blog_container, .category_container, .subscribe_container, .tags_container {
 		width: 85%;
+		font-family: $text-font-stack;
 	}
 
 	/* blog */
