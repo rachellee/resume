@@ -469,7 +469,7 @@ footer {
 /* iPhone 4 ----------- */
 @media screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 	#main-header {
-		font-size: 3.4rem;
+		font-size: 3rem;
 		padding-top: 5rem;
 		height: 9rem;
 	}
@@ -482,7 +482,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections {
+	.sections, .category_container, .subscribe_container, .blog_container, .tags_container {
 		width: 85%;
 	}
 
@@ -491,13 +491,12 @@ footer {
 	}
 
 	#footer-link {
-		margin: 0 1rem;
+		margin: 0 0.7rem;
 	}
 
 	/* blog */
 	.blog_container {
 		margin: 4rem auto 0 auto;
-		width: 85%;
 	}
 
 	.post_header {
@@ -517,19 +516,19 @@ footer {
 		overflow: hidden;
 	}
 
-	.category_container, .portfolio_container, .subscribe_container, .tags_container {
-		width: 85%;
-	}
-
 	.portfolio_container, .project1, .project2  {
 		width: 100%;
+	}
+
+	.projects {
+		width: 98%;
 	}
 }
 
 /* Smartphones (portrait) ----------- */
 @media screen and (min-width: 300px) and (max-width: 368px) {
 	#main-header {
-		font-size: 3.4rem;
+		font-size: 3rem;
 		padding-top: 5rem;
 		height: 9rem;
 	}
@@ -542,7 +541,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections {
+	.sections, .category_container, .subscribe_container, .blog_container, .tags_container {
 		width: 85%;
 	}
 
@@ -551,13 +550,12 @@ footer {
 	}
 
 	#footer-link {
-		margin: 0 1rem;
+		margin: 0 0.7rem;
 	}
 
 	/* blog */
 	.blog_container {
 		margin: 4rem auto 0 auto;
-		width: 85%;
 	}
 
 	.post_header {
@@ -577,12 +575,12 @@ footer {
 		overflow: hidden;
 	}
 
-	.category_container, .portfolio_container, .subscribe_container, .tags_container {
-		width: 85%;
-	}
-
 	.portfolio_container, .project1, .project2  {
 		width: 100%;
+	}
+
+	.projects {
+		width: 98%;
 	}
 }
 
