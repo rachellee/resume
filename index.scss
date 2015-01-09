@@ -436,6 +436,7 @@ ul {
 .project2 {
 	height: 300px;
 	padding-right: 20px;
+	margin: 0 auto;
 	vertical-align: top;
 	display:inline-block;
 	*display:inline;
@@ -464,6 +465,63 @@ footer {
 /* ===========================================================================================
 	Media Queries
    =========================================================================================== */
+/* iPhone 4 ----------- */
+@media screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+	#main-header {
+		font-size: 2.9rem;
+		padding-top: 6rem;
+		height: 9rem;
+	}
+
+	nav {
+		letter-spacing: 0.2rem;
+	}
+
+	.image_div_uw {
+		width: 100%;
+		height: 380px;
+		margin: 5rem auto 0rem auto;
+		padding: 0px;
+		overflow: hidden;
+	}
+
+	.sections {
+		width: 85%;
+		text-align: justify;
+	}
+
+	footer {
+		height: 284px;
+	}
+
+	/* blog */
+	.blog_container {
+		margin: 4rem auto;
+		width: 85%;
+		padding-bottom: 0rem;
+	}
+
+	.post_header {
+		font-size: 1.2rem;
+	}
+
+	.post_content {
+		font-size: 0.95rem;
+		padding-top: 1rem;
+	}
+
+	.post_img {
+		width: 100%;
+		padding: 0px;
+		overflow: hidden;
+	}
+
+	/* portfolio (all) */
+	.portfolio_container {
+		margin: 4rem auto;
+		width: 85%;
+	}
+}
 
 /* Smartphones (portrait) ----------- */
 @media screen and (min-width: 300px) and (max-width: 368px) {
@@ -516,12 +574,12 @@ footer {
 		overflow: hidden;
 	}
 
-	.category_container, .portfolio_container, .project1, .project2 {
+	.category_container, .portfolio_container, .subscribe_container {
 		width: 85%;
 	}
 
-	.subscribe_container {
-		width: 85%;
+	.portfolio_container, .project1, .project2  {
+		width: 100%;
 	}
 }
 
@@ -572,8 +630,12 @@ footer {
 
 	/* portfolio (all) */
 	.portfolio_container {
-		width: 65%;
+		width: 100%;
 		margin: 5rem auto;
+	}
+
+	.project1, .project2 {
+		width: 100%;
 	}
 }
 
@@ -635,7 +697,7 @@ footer {
 		font-size: 6rem; 
 	}
 
-	.sections, .blog_container, .category_container, .subscribe_container {
+	.sections, .blog_container, .category_container, .subscribe_container{
 		width: 85%;
 	}
 
@@ -660,89 +722,10 @@ footer {
 
 	/* portfolio (all) */
 	.portfolio_container {
-		margin: 6rem auto;
-		max-width: 500px;
 		width: 100%
 	}
-}
 
-/* iPhone 4 ----------- */
-@media screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-	#main-header {
-		font-size: 2.9rem;
-		padding-top: 6rem;
-		height: 9rem;
-	}
-
-	nav {
-		letter-spacing: 0.2rem;
-	}
-
-	.image_div_uw {
+	.project1, .project2 {
 		width: 100%;
-		height: 380px;
-		margin: 5rem auto 0rem auto;
-		padding: 0px;
-		overflow: hidden;
-	}
-
-	.sections {
-		width: 85%;
-		text-align: justify;
-	}
-
-	footer {
-		height: 284px;
-	}
-
-	#contact_container {
-		padding-top: 34px;
-	}
-
-
-	#contact {
-		line-height: 1.5rem;
-		width: 40%;
-		padding-left: 10px;
-		float: left;
-	}
-
-	.me {
-		width: 125px;
-		height: auto;
-	}
-
-	#social {
-		width: 50%;
-		margin: 0px auto;
-		padding-right: 6px;
-	}
-
-	/* blog */
-	.blog_container {
-		margin: 4rem auto;
-		width: 85%;
-		padding-bottom: 0rem;
-	}
-
-	.post_header {
-		font-size: 1.2rem;
-	}
-
-	.post_content {
-		font-size: 0.95rem;
-		padding-top: 1rem;
-	}
-
-	.post_img {
-		width: 100%;
-		padding: 0px;
-		overflow: hidden;
-	}
-
-	/* portfolio (all) */
-	.portfolio_container {
-		margin: 4rem auto;
-		width: 85%;
 	}
 }
