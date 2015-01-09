@@ -186,6 +186,10 @@ body {
   }
 }
 
+
+
+
+
 #main-header {
 	height: 10.5rem;
 	font-family: $header-font-stack;
@@ -229,7 +233,7 @@ a {
 	@include large-block-image;
 }
 
-.sections {
+.story_section, .portfolio_section, .portfolio {
 	font-family: $text-font-stack;
 	margin: 2rem auto;
 	max-width: 800px;
@@ -237,11 +241,25 @@ a {
 	text-align: justify;
 }
 
-.sections a {
+.story_section, .portfolio_section {
+	padding-top: 2rem;
+}
+
+.story_section a {
 	text-decoration: none;
-	color: #bebdbd;
 	text-transform: none;
 	font-weight: 300;
+	color: #bebdbd;
+	a:hover {
+	color: #D1D1D1;
+	}
+}
+
+.blog_section a {
+	text-decoration: none;
+	text-transform: none;
+	font-weight: 300;
+	color: #bebdbd;
 	a:hover {
 	color: #D1D1D1;
 	}
@@ -285,13 +303,6 @@ ul {
 	@include body-text;
 }
 
-.portfolio {
-	margin: 4rem auto;
-	max-width: 800px;
-	width: 100%;
-	text-align: justify;
-}
-
 .portfolio_section {
 	font-family: $text-font-stack;
 	font-weight: 300;
@@ -311,19 +322,19 @@ ul {
 	margin: 0 2rem;
 }
 
-.blog, .blog_section a {
-	color: #bebcbc;
-}
-
 /* ===========================================================================================
 	BLOG INDEX
    =========================================================================================== */
-.blog {
+.blog_section {
 	margin: 2rem auto 0rem auto;
 	max-width: 800px;
 	width: 100%;
 	padding-bottom: 0rem;
 	font-family: $text-font-stack;
+}
+
+.blog_section a {
+	color: #bebcbc;
 }
 
 .blog_container {
