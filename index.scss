@@ -260,9 +260,9 @@ h1 {
 }
 
 h2 {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: $text-font-stack;
 	font-size: 1.125rem;
-	font-weight: 100;
+	font-weight: 300;
 	color: #343434;
 	text-align: left;
 	margin-top: -0.625rem;
@@ -271,7 +271,7 @@ h2 {
 
 p {
 	font-family: $text-font-stack;
-	margin-top: 0.5rem;
+	margin-top: 0rem;
 	@include body-text;
 	a {
 		color: #bebdbd;
