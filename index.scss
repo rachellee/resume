@@ -233,36 +233,29 @@ a {
 	@include large-block-image;
 }
 
-.story_section, .portfolio_section, .portfolio {
+.story_section, .portfolio_section, .portfolio, .blog_section {
 	font-family: $text-font-stack;
 	margin: 2rem auto;
 	max-width: 800px;
 	width: 100%;
 	text-align: justify;
+	a {
+		text-decoration: none;
+		text-transform: none;
+		font-weight: 300;
+		color: #bebdbd;
+	}
+	a:hover {
+		color: #D1D1D1;
+	}
 }
 
 .story_section, .portfolio_section {
 	padding-top: 2rem;
 }
 
-.story_section a {
-	text-decoration: none;
-	text-transform: none;
-	font-weight: 300;
-	color: #bebdbd;
-	a:hover {
-	color: #D1D1D1;
-	}
-}
-
-.blog_section a {
-	text-decoration: none;
-	text-transform: none;
-	font-weight: 300;
-	color: #bebdbd;
-	a:hover {
-	color: #D1D1D1;
-	}
+.portfolio_section {
+	line-height: 1.2rem;
 }
 
 h1 {
@@ -303,21 +296,6 @@ ul {
 	@include body-text;
 }
 
-.portfolio_section {
-	font-family: $text-font-stack;
-	font-weight: 300;
-	line-height: 1.2rem;
-	margin: 2rem auto;
-	max-width: 800px;
-	width: 100%;
-	a {
-		text-transform: none;
-	}
-	a:hover {
-		text-decoration: underline;
-	}
-}
-
 #blog-link {
 	margin: 0 2rem;
 }
@@ -325,18 +303,6 @@ ul {
 /* ===========================================================================================
 	BLOG INDEX
    =========================================================================================== */
-.blog_section {
-	margin: 2rem auto 0rem auto;
-	max-width: 800px;
-	width: 100%;
-	padding-bottom: 0rem;
-	font-family: $text-font-stack;
-}
-
-.blog_section a {
-	color: #bebcbc;
-}
-
 .blog_container {
 	margin: 8rem auto 0rem auto;
 	max-width: 800px;
@@ -377,7 +343,7 @@ ul {
 	max-width: 800px;
 	width: 100%;
 	margin: 0 auto 0 auto;
-	padding-bottom: 2rem;
+	padding: 2rem 0;
 	font-family: $text-font-stack;
 	border-bottom: 1px dotted #000000;
 }
