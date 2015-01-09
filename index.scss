@@ -231,7 +231,7 @@ a {
 
 .sections {
 	font-family: $text-font-stack;
-	margin: 6rem auto;
+	margin: 2rem auto;
 	max-width: 800px;
 	width: 100%;
 	text-align: justify;
@@ -285,11 +285,18 @@ ul {
 	@include body-text;
 }
 
+.portfolio {
+	margin: 4rem auto;
+	max-width: 800px;
+	width: 100%;
+	text-align: justify;
+}
+
 .portfolio_section {
 	font-family: $text-font-stack;
 	font-weight: 300;
 	line-height: 1.2rem;
-	margin: 5rem auto;
+	margin: 2rem auto;
 	max-width: 800px;
 	width: 100%;
 	a {
@@ -304,15 +311,15 @@ ul {
 	margin: 0 2rem;
 }
 
-#blog a {
+.blog, .blog_section a {
 	color: #bebcbc;
 }
 
 /* ===========================================================================================
 	BLOG INDEX
    =========================================================================================== */
-.blog_topics {
-	margin: 8rem auto 0rem auto;
+.blog {
+	margin: 2rem auto 0rem auto;
 	max-width: 800px;
 	width: 100%;
 	padding-bottom: 0rem;
@@ -452,7 +459,7 @@ ul {
 
 footer {
 	width: 100%;
-	padding-top: 3rem;
+	padding-top: 4rem;
 	padding-bottom: 3rem;
 	background-color: white;
 	text-align: center;
@@ -482,7 +489,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections, .category_container, .subscribe_container, .blog_container, .tags_container {
+	.sections, .portfolio, .category_container, .subscribe_container, .blog_container, .tags_container {
 		width: 85%;
 	}
 
@@ -541,7 +548,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections, .category_container, .subscribe_container, .blog_container, .tags_container {
+	.sections, .portfolio, .category_container, .subscribe_container, .blog_container, .tags_container {
 		width: 85%;
 	}
 
@@ -582,6 +589,10 @@ footer {
 	.projects {
 		width: 98%;
 	}
+
+	.portfolio_section {
+		margin-bottom: 1rem;
+	}
 }
 
 /* Smartphones (portrait) custom ----------- */
@@ -600,7 +611,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections, .category_container, .subscribe_container, .blog_container, .tags_container {
+	.sections, .portfolio, .category_container, .subscribe_container, .blog_container, .tags_container {
 		width: 85%;
 	}
 
@@ -656,7 +667,7 @@ footer {
 		overflow: hidden;
 	}
 
-	.sections, .blog_container, .category_container, .subscribe_container, .tags_container {
+	.sections, .portfolio, .blog_container, .category_container, .subscribe_container, .tags_container {
 		width: 85%;
 	}
 
@@ -702,7 +713,7 @@ footer {
 		font-size: 6rem; 
 	}
 
-	.sections, .blog_container, .category_container, .subscribe_container, .tags_container {
+	.sections, .portfolio, .blog_container, .category_container, .subscribe_container, .tags_container {
 		width: 85%;
 	}
 
