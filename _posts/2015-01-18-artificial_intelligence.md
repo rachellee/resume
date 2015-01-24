@@ -11,3 +11,5 @@ While scrolling my Twitter feed this morning, I came across this article that Wi
 Is it possible to build robots that feel empathy? Can empathy be taught? For something that is devoid of feelings from its conception, can it be taught to feel empathy? Something that even humans are not capable to always feel. Would we then be able to create something that perfects that ability?
 
 It is crucial for scientists and designers working on AI research to consider these issues and create these products in an ethical manner.
+
+Tags: <a href="/tags/#tech">Tech</a>, <a href="/tags/#design">Design</a> 

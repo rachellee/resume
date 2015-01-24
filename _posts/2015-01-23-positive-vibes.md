@@ -10,3 +10,5 @@ Today I watched <a target="_blank" href="https://www.youtube.com/watch?v=udAL48P
 Watching this video also made me think about why there is so much hatred. So much dissonance surrounding religion, political views. So much strife. So much death. And for what? It won't change any minds. People will continue to believe what they believe and see what they want to see.
 
 So why focus on the negativity and what separates us from one another and instead focus on what can bring us together?
+
+Tags: <a href="/tags/#thoughts">Thoughts</a>
