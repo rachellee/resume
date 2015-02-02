@@ -6,7 +6,11 @@ tags:
 ---
 
 <center><img src="/images/seahawks.png" alt="Seahawks" class="post_img"></center>
-These last couple of weeks have been pretty amazing. The Hawks made an unbelievable comeback against the Packers, scoring 15 points in 44 SECONDS. That's freaking amazing. It was really cool driving around Seattle and seeing the buildings downtown light up in green and blue, some buildings even creating a "12" in their windows. Cars waving 12th Man flags everyone. The city was unified. No one was expecting this game to be easy, but we all had faith. But no one could have guessed that at the 1 yard line that they would be throwing the ball in rather than passing it off to Lynch to run it in. Last night was completely devastating.
+These last couple of weeks have been pretty amazing. The Hawks made an unbelievable comeback against the Packers, scoring 15 points in 44 SECONDS. The amazing play by Wilson to Willson, then Kearse. Freaking Kearse. Who pushed through all the crap in the beginning of the game and went on to catch the game winning touchdown. It was beautiful. You'd be lying if you said you weren't getting a little teary when you saw Wilson and Kearse at the end of the game.
+
+During these last couple of weeks, driving around Seattle, you saw buildings downtown lit up in green and blue lights, flying the 12th Man flag, some buildings even made a giant "12" in their windows with lights. Cars waving 12th Man & Seahawks flags everywhere. The whole city was unified and freaking pumped.
+
+No one was expecting this game to be easy. But no one could have guessed that at the 1 yard line with seconds left on the board that they would be throwing the ball in rather than passing it off to Lynch to run it in. Last night was completely devastating.
 
 So, if you're still needing some decompression or relaxation, you can do what I did last night. It helped. A lot.
 
