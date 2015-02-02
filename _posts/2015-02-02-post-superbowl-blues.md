@@ -15,6 +15,7 @@ No one was expecting this game to be easy. But no one could have guessed that at
 So, if you're still needing some decompression or relaxation, you can do what I did last night. It helped. A lot.
 
 First, you can be really pissed about it and talk it our with your significant other for 10-15min. But no more. Otherwise you'll just get more angry. Then it's time for some productive distractions (with Netflix on in the background, of course):
+
 <ul>
 	<li>Clean/organize the kitchen</li>
 	<li>Water/Repot your plants</li>
