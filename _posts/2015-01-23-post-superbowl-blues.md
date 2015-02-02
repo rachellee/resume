@@ -21,7 +21,7 @@ First, you can be really pissed about it and talk it our with your significant o
 	<li>Apply some anti-fungal treatments to your plants (aka Cinnamon)</li>
 	<li>Eat chocolate. Preferably Theo's 45% Milk Chocolate with Salted Almonds. It's delicious</li>
 	<li>Watch the sharks' performance during Katy Perry's Teenage Dream. Sometimes you're the right shark, sometimes you're the left shark. C'est la vie</li>
-	<li>Last, but not least, take pride in the fact that our team is the same team that won Seattle its first Superbowl victory and it sure as hell won't be the last time they do it</li>
+	<li>Last, but not least, take pride in the fact that our team is the same team that won Seattle its first Superbowl victory and it sure as hell won't be their last</li>
 </ul>
 
 Go Hawks.
