@@ -26,3 +26,5 @@ First, you can be really pissed about it and talk it our with your significant o
 Last, but not least, take pride in the fact that this was a well fought game. Matthews, who had never caught a ball in a game before last night, beautifully caught 3 or 4 passes that made great headway for the team. This is the team that won Seattle its first Superbowl victory and it sure as hell won't be their last.
 
 Go Hawks.
+
+Tags: <a href="/tags/#thoughts">Thoughts</a>
