@@ -2,7 +2,7 @@
 layout: post
 title: Post-Superbowl Blues
 tags:
-- Thoughts
+- Personal
 ---
 
 <center><img src="/images/seahawks.png" alt="Seahawks" class="post_img"></center>
@@ -27,4 +27,4 @@ Last, but not least, take pride in the fact that this was a well fought game. Ma
 
 Go Hawks.
 
-Tags: <a href="/tags/#thoughts">Thoughts</a>
+Tags: <a href="/tags/#personal">Personal</a>

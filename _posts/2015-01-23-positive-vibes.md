@@ -2,7 +2,7 @@
 layout: post
 title: Positive Vibes
 tags:
-- Thoughts
+- Personal
 ---
 
 Today I watched <a target="_blank" href="https://www.youtube.com/watch?v=udAL48P5NJU">this video</a> of the recently released image of the Andromeda Galaxy. It's NASA's largest image ever totalling 4+ gigabytes. The video was short, only about 3.5 minutes, but it has significant impact. When you watch the video you see just how small we really are. It will make you think about how little your problems matter. It will make you think about how small our lives are. It will make you think about what this all means. The cliche question that gets thrown around as a philosophical joke, will have a bit of fortitude: what is the meaning of life?
@@ -11,4 +11,4 @@ Watching this video also made me think about why there is so much hatred. So muc
 
 So why focus on the negativity and what separates us from one another and instead focus on what can bring us together?
 
-Tags: <a href="/tags/#thoughts">Thoughts</a>
+Tags: <a href="/tags/#personal">Personal</a>
