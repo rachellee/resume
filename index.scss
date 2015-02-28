@@ -452,12 +452,17 @@ div.mc-field-group label {
 	PORTFOLIO
    =========================================================================================== */
 
+.portfolio_page {
+	margin: 0;
+	padding: 0;
+}
+
 .portfolio_container {
 	font-family: $text-font-stack;
 	font-weight: 300;
 	line-height: 1.2rem;
 	margin: 5rem auto;
-	max-width: 900px;
+	max-width: 947px;
 	width: 100%;
 	a {
 		text-transform: none;
@@ -467,11 +472,21 @@ div.mc-field-group label {
 	}
 }
 
-.project1,
-.project2 {
+.project {
 	height: 300px;
 	padding-right: 20px;
 	margin: 0 auto;
+	vertical-align: top;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.project_right {
+	height: 300px;
+	padding-right: 0px;
 	vertical-align: top;
 	display:inline-block;
 	*display:inline;
@@ -557,7 +572,7 @@ footer {
 	}
 
 	#blog-link {
-		margin: 0 0.4rem;
+		margin: 0 1rem;
 	}
 
 	#footer-link {
@@ -597,7 +612,7 @@ footer {
 	}
 
 	/* portfolio */
-	.portfolio_container, .project1, .project2  {
+	.portfolio_container, .project, .project_right  {
 		width: 100%;
 	}
 
@@ -633,7 +648,7 @@ footer {
 	}
 
 	#blog-link {
-		margin: 0 0.4rem;
+		margin: 0 2rem;
 	}
 
 	#footer-link {
@@ -673,7 +688,7 @@ footer {
 	}
 
 	/* portfolio */
-	.portfolio_container, .project1, .project2  {
+	.portfolio_container, .project, .project_right {
 		width: 100%;
 	}
 
@@ -709,7 +724,7 @@ footer {
 	}
 
 	#blog-link {
-		margin: 0 0rem;
+		margin: 0 0.4rem;
 	}
 
 	#footer-link {
@@ -743,7 +758,7 @@ footer {
 		margin: 5rem auto;
 	}
 
-	.project1, .project2 {
+	.project, .project_right {
 		width: 100%;
 	}
 }
@@ -798,7 +813,7 @@ footer {
 		margin: 3rem auto;
 	}
 
-	.project1, .project2 {
+	.project, .project_right {
 		padding: none;
 		width: 100%;
 	}
@@ -842,7 +857,7 @@ footer {
 		width: 100%
 	}
 
-	.project1, .project2 {
+	.project, .project_right {
 		width: 100%;
 	}
 }
