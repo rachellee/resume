@@ -3,7 +3,6 @@ layout: post
 title: The Best Sushi in Seattle
 tags:
 - Food
-- Personal
 ---
 
 I think I very well may have found the best sushi in Seattle. A few months ago I bought an Amazon Local deal for a prix fixe meal for two at Sushi Samurai in Queen Anne. It included an appetizer, two rolls, and two large sakes (or beers) for two. The restaurant had good reviews, but I didn't do that much research on it and decided to just trust the 4 stars on Yelp. My mom had just gotten back from a month-long trip, so I wanted to catch up with her and invited her to dinner with me. The interior was cute, small, and nice, but did not hint at all at what was to come.<BR><BR>
