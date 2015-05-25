@@ -11,7 +11,7 @@ First, the waters we got had cucumber and orange slices. Can't go wrong with som
 
 Now, the best part was the food. We started off with a tempura appetizer. The breading was perfect, portion was great for two people. One thing that made their tempura very unique was their dipping sauce. It had a sweet ginger taste which took the tempura to a whole nother level. Delicious.<BR><BR>
 
-<center><img src="/images/sushi.jpg" alt="sushi" class="post_img"></center><BR><BR>
+<center><img src="/images/sushi.JPG" alt="sushi" class="post_img"></center><BR><BR>
 
 When the sushi came, I was blown away. They had taken so much care with their presentation, adding pieces of fruit, a celery ring, and shredded carrot to the wasabi. The presentation was a perfect lead to the quality and taste of the sushi.<BR><BR>
 
@@ -19,7 +19,7 @@ We ordered the Karen (left) and New Samurai (right) rolls. The Karen roll was co
 toasted bread crumbs, baked scallop, shrimp, salmon
 and samurai sauce. Both were delicious and you really don't need to add any soy sauce to it, unless you do it for the spice (which if you're an addict like me, you will). It was so good we ended up ordering a roll to go for my boyfriend and another roll for ourselves! We ordered the Katana (not pictured) which has salmon, avocado, tobiko, tuna, poke sauce for Kenneth and a Crunchy Salmon (not pictured) for ourselves.<BR><BR>
 
-<center><img src="/images/sushi2.jpg" alt="sushi2" class="post_img"></center><BR><BR>
+<center><img src="/images/sushi2.JPG" alt="sushi2" class="post_img"></center><BR><BR>
 
 Not only was the food amazing at Sushi Samurai, but the food was also very reasonably priced and they only serve 100% sustainable sushi!<BR><BR>
 
