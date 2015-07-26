@@ -242,7 +242,7 @@ a {
 	margin: 2rem auto;
 	max-width: 800px;
 	width: 100%;
-	text-align: justify;
+	text-align: left;
 	a {
 		text-decoration: none;
 		text-transform: none;
@@ -344,7 +344,7 @@ ul {
 
 .post_content {
 	@include body-text;
-	text-align: justify;
+	text-align: left;
 	padding-top: 1rem;
 	padding-bottom: 3rem;
 }
@@ -523,7 +523,7 @@ div.mc-field-group label {
 	padding-bottom: 0rem;
 	max-width: 800px;
 	width: 100%;
-	text-align: justify;
+	text-align: left;
 	a {
 		text-decoration: none;
 		text-transform: none;
@@ -599,7 +599,7 @@ footer {
 	.post_content {
 		font-size: 0.95rem;
 		line-height: 1.5rem;
-		text-align: justify;
+		text-align: left;
 		padding-bottom: 4rem;
 	}
 
@@ -675,7 +675,7 @@ footer {
 	.post_content {
 		font-size: 0.95rem;
 		line-height: 1.5rem;
-		text-align: justify;
+		text-align: left;
 		padding-bottom: 4rem;
 	}
 
@@ -806,7 +806,7 @@ footer {
 
 	.post_content {
 		font-size: 0.95rem;
-		text-align: justify;
+		text-align: left;
 		color: #757575;
 	}
 
