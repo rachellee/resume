@@ -190,10 +190,6 @@ body {
   }
 }
 
-
-
-
-
 #main-header {
 	height: 10.5rem;
 	font-family: $header-font-stack;
@@ -465,7 +461,7 @@ div.mc-field-group label {
 	font-family: $text-font-stack;
 	font-weight: 300;
 	line-height: 1.2rem;
-	margin: 5rem auto;
+	margin: 5rem auto 0rem auto;
 	max-width: 947px;
 	width: 100%;
 	a {
@@ -546,10 +542,21 @@ div.mc-field-group label {
 footer {
 	width: 100%;
 	padding-top: 4rem;
-	padding-bottom: 3rem;
+	padding-bottom: 0rem;
 	background-color: white;
 	text-align: center;
 	clear:both;
+}
+
+.footer_text {
+	font-family: $text-font-stack;
+	color: #757575;
+	text-transform: none;
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: 300;
+	line-height: 1.8rem;
 }
 
 #footer-link {
