@@ -224,7 +224,7 @@ a {
 
 .main-container {
 	width: 100%;
-	margin: 0rem auto;
+	margin: 0rem auto 6rem auto;
 	background-color: #FFFFFF;
 }
 
@@ -257,6 +257,33 @@ a {
 .portfolio_section {
 	line-height: 1.1rem;
 	font-weight: 300;
+}
+
+.project_home {
+	height: 300px;
+	padding-right: 10rem;
+	margin: 0 auto;
+	vertical-align: top;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.project_right_home {
+	height: 300px;
+	padding-right: 0px;
+	vertical-align: top;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.project_mckinsey {
+	padding-right: 10rem;
 }
 
 .project_img {
@@ -318,7 +345,7 @@ ul {
 	max-width: 800px;
 	width: 100%;
 	padding-bottom: 1rem;
-	border-bottom: 1px dotted #000000;
+	border-bottom: none;
 }
 
 .blog_container a {
