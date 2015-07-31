@@ -575,6 +575,9 @@ footer {
 	clear:both;
 }
 
+footer p {
+	font-size: 0.9rem;
+}
 .footer_text {
 	font-family: $text-font-stack;
 	color: #757575;
@@ -583,7 +586,7 @@ footer {
 	text-decoration: none;
 	font-size: 0.9rem;
 	font-weight: 300;
-	line-height: 3.5rem;
+	line-height: 1.3rem;
 }
 
 #footer-link {
