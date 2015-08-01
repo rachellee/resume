@@ -233,7 +233,24 @@ a {
 	@include large-block-image;
 }
 
-.story_section, .portfolio_section, .portfolio, .blog_section {
+.story_section{
+	font-family: $text-font-stack;
+	margin: 2rem auto;
+	max-width: 650px;
+	width: 100%;
+	text-align: left;
+	a {
+		text-decoration: none;
+		text-transform: none;
+		font-weight: 300;
+		color: #bebdbd;
+	}
+	a:hover {
+		color: #D1D1D1;
+	}
+}
+
+.portfolio_section, .side_section, .portfolio, .blog_section {
 	font-family: $text-font-stack;
 	margin: 2rem auto;
 	max-width: 800px;
@@ -254,7 +271,7 @@ a {
 	padding-top: 2rem;
 }
 
-.portfolio_section {
+.portfolio_section, .side_section {
 	line-height: 1.1rem;
 	font-weight: 300;
 }
@@ -484,13 +501,34 @@ div.mc-field-group label {
 	padding: 0;
 }
 
-.portfolio_container {
+.portfolio_container, .side_container, .photo_container, .lettering_container {
 	font-family: $text-font-stack;
 	font-weight: 300;
 	line-height: 1.2rem;
-	margin: 5rem auto 0rem auto;
 	max-width: 947px;
-	width: 100%;
+	width: 80%;
+	a {
+		text-transform: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+.portfolio_container, .project_container {
+	margin: 5rem auto 0rem auto;
+}
+
+.side_container, .photo_container, .lettering_container {
+	margin: 2.5rem auto 0rem auto;
+}
+
+.project_container {
+	font-family: $text-font-stack;
+	font-weight: 300;
+	line-height: 1.2rem;
+	max-width: 600px;
+	width: 80%;
 	a {
 		text-transform: none;
 	}
@@ -535,6 +573,10 @@ div.mc-field-group label {
 	color: #bebdbd;
 	text-transform: none;
 	font-weight: 300;
+}
+
+.project_small {
+	width: 700px;
 }
 
 /* ===========================================================================================
