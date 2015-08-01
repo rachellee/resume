@@ -506,7 +506,7 @@ div.mc-field-group label {
 	font-weight: 300;
 	line-height: 1.2rem;
 	max-width: 947px;
-	width: 80%;
+	width: 100%;
 	a {
 		text-transform: none;
 	}
@@ -562,6 +562,14 @@ div.mc-field-group label {
 
 .project_mckinsey {
 	padding-right: 10rem;
+}
+
+.port_img {
+	width: 100%;
+}
+
+.port_img_m {
+	width: 50%;
 }
 
 .post_content a:hover {
@@ -941,10 +949,20 @@ footer p {
 
 	/* portfolio (all) */
 	.portfolio_container {
-		width: 100%
+		width: 100%;
 	}
 
 	.project, .project_right {
+		width: 100%;
+	}
+
+	.port_img {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 1030px) {
+	.portfolio_container {
 		width: 100%;
 	}
 }
