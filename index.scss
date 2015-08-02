@@ -233,6 +233,10 @@ a {
 	@include large-block-image;
 }
 
+.profile_pic {
+	width: 300px;
+}
+
 .story_section{
 	font-family: $text-font-stack;
 	margin: 2rem auto;
