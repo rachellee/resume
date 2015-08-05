@@ -605,6 +605,10 @@ footer {
 	background-color: #F5F5F8;
 	text-align: center;
 	clear:both;
+	a {
+		text-transform: none;
+		text-decoration: underline;
+	}
 }
 
 footer p {
