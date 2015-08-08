@@ -1,0 +1,13 @@
+<footer>
+			<p> Stay in Touch</p>
+			<span id="footer-link"><a href="mailto: hello@rachellee.io"><img src="/images/social/email.png" class="social" alt="Mail"></a></span>
+			<span id="footer-link"><a target="_blank" href="https://www.behance.net/rachellee_"><img src="/images/social/behance.png" class="social" alt="Behance"></a></span>
+			<span id="footer-link"><a target="_blank" href="https://github.com/rachellee"><img src="/images/social/github.png" class="social" alt="Git Hub"></a></span>
+			<span id="footer-link"><a target="_blank" href="https://www.instagram.com/rachlee._"><img src="/images/social/photo.png" class="social" alt="Instagram"></a></span>
+			<span id="footer-link"><a target="_blank" href="https://www.twitter.com/rach3llee"><img src="/images/social/twitter.png" class="social" alt="Twitter"></a></span><BR><BR>
+			<div class="footer_text"><center>Copyright &copy; 2014-2015 Rachel Lee<BR>built in Jekyll &middot; <a href="/attributes">attributes</a></center></div>
+		</footer>	
+
+		Mail icon made by <a href="http://www.simpleicon.com" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+<BR>
+	Behance icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
