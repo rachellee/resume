@@ -37,7 +37,7 @@ $text-font-stack: 'Lato', 'Antic', 'Verdana', Helvetica, Arial, sans-serif;
 }
 
 body {
-	background-color: #FFF;
+	background-color: rgba(255,255,255,0);
 	margin: 0rem;
 	padding: 0rem;
 }
@@ -194,7 +194,6 @@ body {
 #main-header {
 	height: 10.5rem;
 	font-family: $header-font-stack;
-	color: #9AD8D0;
 	font-size: 6rem;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -206,10 +205,10 @@ body {
 
 #main-header {
 	a {
-	color: #9AD8D0;
+	color: #ff9999;
 	}
 	a:hover {
-	color: #D7F4F0;
+	color: #ffd6d6;
 	}
 }
 
@@ -285,24 +284,24 @@ blockquote {
 
 h1 {
 	font-family: $header-font-stack;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	font-weight: 700;
-	color: #9AD8D0;
+	letter-spacing: 0.1rem;
+	color: #89e589;
 	text-style: none;
-	text-decoration: none;
-	letter-spacing: 0.2rem;
+	text-transform: uppercase;
 	text-align: left;
 	padding-bottom: 0rem;
 }
 
 h2 {
 	font-family: $text-font-stack;
-	font-size: 1.125rem;
-	font-weight: 300;
+	font-weight: bold;
+	font-size: 1rem;
 	color: #343434;
 	text-align: left;
-	margin-top: -0.625rem;
-	margin-bottom: 0rem;
+	padding: 0;
+	margin: 0;
 }
 
 p {
