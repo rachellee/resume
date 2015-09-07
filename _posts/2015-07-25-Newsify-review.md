@@ -1,6 +1,6 @@
 ---
 layout: post
-title: App Review: Newsify
+title: App Review - Newsify
 tags:
 - Design
 - Tech
