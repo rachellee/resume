@@ -10,8 +10,9 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Antic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,300);
 
-$header-font-stack: 'Julius Sans One', 'Lato', 'Open Sans', Helvetica, Arial, sans-serif;
+$header-font-stack: 'Open Sans', 'Julius Sans One', 'Lato', Helvetica, Arial, sans-serif;
 $text-font-stack: 'Lato', 'Antic', 'Verdana', Helvetica, Arial, sans-serif;
 
 @mixin large-block-image {
@@ -195,7 +196,7 @@ body {
 	font-family: $header-font-stack;
 	color: #9AD8D0;
 	font-size: 6rem;
-	font-weight: 700;
+	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.8rem;
 	text-align: center;
@@ -285,7 +286,7 @@ blockquote {
 h1 {
 	font-family: $header-font-stack;
 	font-size: 1.5rem;
-	font-weight: 400;
+	font-weight: 700;
 	color: #9AD8D0;
 	text-style: none;
 	text-decoration: none;
